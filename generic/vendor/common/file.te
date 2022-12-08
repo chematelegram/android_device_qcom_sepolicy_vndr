@@ -114,6 +114,9 @@ type vendor_sysfs_trusted_touch_event, sysfs_type, fs_type;
 type vendor_sysfs_trusted_touch_type, sysfs_type, fs_type;
 type vendor_sysfs_mmc_device_type, fs_type, sysfs_type;
 
+type vendor_debugfs_ipc, debugfs_type, fs_type;
+type vendor_debugfs_wlan, debugfs_type, fs_type;
+
 # /proc
 type vendor_proc_wifi_dbg, fs_type, proc_type;
 type vendor_proc_audiod, fs_type, proc_type;
@@ -130,6 +133,7 @@ type vendor_notify-topology_socket, file_type;
 #Define the qti socket type
 type vendor_dataqti_socket, file_type;
 
+type vendor_ims_socket, file_type;
 type vendor_ims_service_socket, file_type;
 type vendor_ipacm_socket, file_type;
 type vendor_cnd_socket, file_type;
